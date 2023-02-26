@@ -1,0 +1,40 @@
+{
+  "name": "huber",
+  "version": "1.0.0",
+  "description": "Uber clone server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql"
+  },
+  "keywords": [],
+  "author": "vanhiep99w <vanhiep99w@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql-tools": "^8.3.18",
+    "graphql-yoga": "^3.7.0",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/helmet": "^4.0.0",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
